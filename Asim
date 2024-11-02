@@ -1,0 +1,68 @@
+ 
+<body bgcolor="#00316B"> <p align="center"><APPLET NAME="DigiChat" CODEBASE="http://host20.degichat.com/DigiChat/DigiClasses/" CODE="com.diginet.digichat.client.DigiChatApplet.c lass" WIDTH="200" HEIGHT="70" ALIGN="MIDDLE" ARCHIVE="client.jar"> <br><br> <br><br><PARAM NAME="HttpServlet" VALUE="> <br>http://host20.degichat.com/DigiChat/DigiClasses/" <br><br><br><br><br><PARAM NAME="floodControl" VALUE="200"><br><br><br><br> <br><PARAM NAME="siteID" VALUE="1012"> <br> <PARAM NAME="cabbase" VALUE="Client.cab"> <PARAM NAME="background" VALUE="FFFFFF"> <PARAM NAME="textcolor" VALUE="000000"> <param name="language" value="arabic.lang"> </APPLET>
+
+
+
+<APPLET NAME="DigiChat"
+CODEBASE="http://host2.digichat.com/DigiChat/DigiClasses/"
+CODE="digi.digichat.DigiChatApplet"
+WIDTH="200" HEIGHT="100" ALIGN="MIDDLE"
+ARCHIVE="Client.jar">
+
+<PARAM NAME="port" VALUE="8357">
+<PARAM NAME="cabbase" VALUE="Client.cab">
+
+<PARAM NAME="background" VALUE="FFFFFF">
+<PARAM NAME="textcolor" VALUE="000000">
+
+DigiChat requires a Java Compatible web browser to run.
+</APPLET> 
+ <APPLET NAME="DigiChat"
+CODEBASE="http://chat.shargawy.com/DigiChat/DigiClasses/"
+CODE="com.diginet.digichat.client.DigiChatApplet.c lass"
+WIDTH="200" HEIGHT="90" ALIGN="middle"
+ARCHIVE="http://www.menogroup.com/client.jar" hspace="0">
+
+<PARAM NAME="siteID" VALUE="1002">
+<PARAM NAME="cabbase" VALUE="Client.cab">
+<PARAM NAME=language VALUE=arabic.lang>");<PARAM NAME="background" VALUE="ffffff"><PARAM NAME="textcolor" VALUE="0000dd">DigiChat requires a Java Compatible web browser to run.
+</APPLET>
+
+<APPLET NAME="DigiChat"
+CODEBASE="http://chat.shargawy.com/DigiChat/DigiClasses/"
+CODE="com.diginet.digichat.client.chatmaster.DigiC hatMasterApplet.class"
+WIDTH="200" HEIGHT="150" ALIGN="middle"
+ARCHIVE="http://www.menogroup.com/ChatMaster.jar">
+
+<PARAM NAME="siteID" VALUE="1002">
+<PARAM NAME="cabbase" VALUE="ChatMaster.cab">
+<PARAM NAME=language VALUE=arabic.lang>");<PARAM NAME="background" VALUE="ffffff"><PARAM NAME="textcolor" VALUE="0000dd">DigiChat requires a Java Compatible web browser to run.
+</APPLET> 
+
+<form target="entropychat" action="http://3arabawys.com:2084/">
+Nick Name: <input type="text" name="nick" value="">
+<input type="hidden" name="channel" value="3arabawys.com">
+<input type="submit" value="Enter Chat">
+</form>
+<SCRIPT LANGUAGE='javascript'>
+var roomname='hisam';
+var SKIN='http://imchat.pwp.blueyonder.co.uk/nd/login.html';
+// change this to "1" if you want your room to be closed
+var CLOSED="0";
+function login() {
+window.open(SKIN+"?" + document.details.NICK.value + "|||||||" + document.details.PASS.value + "||0|0|0||" + roomname + "|"+CLOSED+"|0", "qlogin", "width=779,height=500,toolbar=0,location=0,directo r ies=0,status=0,menuBar=0,scrollBars=0,resizable=1" );
+}
+</SCRIPT>
+<FORM NAME="details"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="4">
+<TR><TD COLSPAN="3" ALIGN="CENTER" BGCOLOR="#0000ff">
+<B><FONT COLOR="#ffffff" FACE="Arial" SIZE ="4">شات هيثم المصرى الصوتى</FONT></B></TD>
+</TR><TR><TD BGCOLOR="#000099" WIDTH="89"><B><FONT COLOR="#ffffff" FACE="Arial" SIZE ="3">الأسم المستعار</FONT></B></TD>
+<TD BGCOLOR="#000099" WIDTH="130"><INPUT NAME="NICK" TYPE="text" SIZE="16" MAXLENGTH="16"></TD><TD BGCOLOR="#000099" WIDTH="72">
+<INPUT ID="cLoginButton" NAMELOGIN;" TYPE="button" VALUE="LOGIN" ONCLICK="login();"></TD>
+</TR><TR><TD BGCOLOR="#000099" WIDTH="89"><B><FONT COLOR="#ffffff" FACE="Arial" SIZE ="3">كلمة السر للمشرف *</FONT></B></TD>
+<TD BGCOLOR="#000099" WIDTH="130"><INPUT NAME="PASS" TYPE="password" SIZE="16" MAXLENGTH="200"></TD>
+<TD BGCOLOR="#000099" WIDTH="72"></TD></TR><TR><TD COLSPAN="3" BGCOLOR="#6a006a"><P><CENTER><B><FONT COLOR="#ffffff" SIZE="2" FACE="Arial">
+* كلمة السر فقط للمشرفين<BR>ضع الأسم المستعار ثم دخول.</FONT></B></CENTER></TD></TR></TABLE></FORM>
+<!--[if IE]>
+<small><a class="chlnk" style="cursor:hand;font-weight:bold;color:blue;font-family:arial" HREF onClick="this.style.behavior='url(#default#homepag e)';this. setHomePage('http://www.hzoom.net/~hisam/');"><img src="http://wsabstract.com/house.gif"> هل تريد الخروج!</a></small>
+<![endif]--> 
